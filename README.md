@@ -35,6 +35,8 @@ The system also provides an asynchronous REST API for interacting with and manag
 
 ## Setup
 
+IF FOR SOME REASON YOU GET SOME MISSING VARIABLES, RUN TS IN ORDER TO COMPILE THE FILES ONCE AGAIN.
+
 1. **Clone this repository** to your local machine.
 
 2. **Navigate to the project directory**.
