@@ -7,7 +7,7 @@ require('dotenv').config();
 import indexRouter from './routes/index';
 import domainsRouter from './routes/domains';
 import { start } from './services/unscannedDomainsScheduler';
-import { securityMiddleware, xssFilter } from './middlewares/security';
+import { securityMiddleware, xssFilter, rateLimiter } from './middlewares/security';
 
 const app = express();
 app.set('views', path.join(__dirname, 'views'));
@@ -16,7 +16,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(xssFilter, securityMiddleware)
+app.use(xssFilter, securityMiddleware, rateLimiter)
 app.use('/', indexRouter);
 app.use('/domains', domainsRouter);
 
