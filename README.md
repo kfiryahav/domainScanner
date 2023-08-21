@@ -17,6 +17,8 @@ The system also provides an asynchronous REST API for interacting with and manag
 
 - **Modular Design**: The system follows a modular design, with several services communicating effectively. This architecture enables scalability and long-term viability.
 
+- **Scheduling System**: The analysis interval is configurable and set to run once a month.
+
 ## Security Features
 - **Joi Domain Validation**: We validate and sanitize input data using Joi to prevent vulnerabilities.
 ー
@@ -24,7 +26,6 @@ The system also provides an asynchronous REST API for interacting with and manag
 
 **Rate Limiting**: We implement rate limiting to ensure stable performance and prevent abuse.
 
-- **Scheduling System**: The analysis interval is configurable and set to run once a month.
 
 ## Tech Stack
 
