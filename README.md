@@ -24,7 +24,7 @@ The system also provides an asynchronous REST API for interacting with and manag
 ー
 * *XXE Attack Prevention**: Our API safeguards against XML External Entity attacks.
 
-**Rate Limiting**: We implement rate limiting to ensure stable performance and prevent abuse.
+* *Rate Limiting**: We implement rate limiting to ensure stable performance and prevent abuse.
 
 
 ## Tech Stack
