@@ -21,6 +21,7 @@ The system also provides an asynchronous REST API for interacting with and manag
 - **Joi Domain Validation**: We validate and sanitize input data using Joi to prevent vulnerabilities.
 ー
 * *XXE Attack Prevention**: Our API safeguards against XML External Entity attacks.
+
 **Rate Limiting**: We implement rate limiting to ensure stable performance and prevent abuse.
 
 - **Scheduling System**: The analysis interval is configurable and set to run once a month.
